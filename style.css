@@ -1,0 +1,458 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'PlambC';
+	font-size: 16px;
+	color: #FFFFFF;
+}
+@font-face{
+	font-family: 'PlambC';
+	src: url(font/PlumbLightC.ttf);
+}
+img {
+	max-width: 100%;
+	height: auto;
+	border: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	background-image: url("img/background-header.png");
+	background-repeat: no-repeat;
+	max-height: 800px;
+}
+
+.container {
+	max-width: 1920px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	padding: 31.91px 180px;
+}
+
+.header__logo {
+	cursor: pointer;
+}
+
+.header__nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-links-item {
+	color: #FFFFFF;
+
+}
+
+.nav-links-item:not(:first-child) {
+	margin-left: 47px;
+}
+
+.header__right-side {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.search {
+	cursor: pointer;
+}
+
+.language-block {
+	display: flex;
+	align-items: center;
+	margin-left: 70px;
+	cursor: pointer;
+}
+
+.language-change {
+	padding-left: 11px;
+	color: #FFFFFF;
+}
+
+.line {
+	height: 1px;
+	background-color: #FFFFFF;
+	margin-bottom: 184px;
+}
+
+/* ***************** */
+
+.first-screen {
+	max-width: 1112px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+}
+
+.first-screen__first-title {
+	font-size: 64px;
+	margin-bottom: 35px;
+}
+
+.first-screen__first-description {
+	margin-bottom: 25px;
+	line-height: 33.6px;
+}
+
+.more-link::after {
+	content: '\2192';
+	margin-left: 10px;
+}
+
+.firsts-screen__cards {}
+
+.cards__items {
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	margin-top: 100px;
+}
+
+.cards__item {
+	width: 255px;
+	height: 148px;
+	padding: 0 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 21px;
+	gap: 10px;
+}
+
+
+#cards__item-1 {
+	background-color: #2378FC;
+}
+
+#cards__item-2 {
+	margin-left: 30px;
+	background-color: #30BCC9;
+}
+
+#cards__item-3 {
+	margin-top: 30px;
+	background-color: #FFC41E;
+}
+
+#cards__item-4 {
+	margin-left: 30px;
+	margin-top: 30px;
+	background-color: #F6404F;
+}
+
+#cards__item-3,
+#cards__item-4 {
+	margin-bottom: 53px;
+}
+
+/* !!! main */
+
+.about {
+	padding: 75px 0;
+	background-color: #2378FC;
+}
+
+.about__container {
+	max-width: 1114px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.about-col-title {
+	font-size: 30px;
+	margin-bottom: 30px;
+
+}
+
+.about-col-desc {
+	transition: 0.3s;
+}
+
+.about-col-desc:hover {
+	color: #FFC41E;
+	text-decoration: underline;
+}
+
+.about-col-desc:not(:first-child) {
+	margin-top: 15px;
+}
+
+
+/* ******* */
+
+.events {
+	background-color: #FFC41E;
+	padding-bottom: 79px;
+}
+
+.events__container {
+	max-width: 1110px;
+}
+
+.events__header {
+	padding: 75px 0 55px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.events__title {
+	font-size: 30px;
+	color: #2E373B;
+	font-weight: 500;
+}
+
+.events__more-link {
+	font-size: 21px;
+	color: #2E373B;
+	transition: 0.3s;
+}
+
+.events__more-link:hover {
+	text-decoration: underline;
+}
+
+.events__items {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.events__item-date {
+	margin: 20px 0 10px 0;
+	font-size: 14px;
+	color: #2E373B;
+}
+
+.events__item-title {
+	margin-bottom: 10px;
+	font-size: 21px;
+	color: #F6404F;
+	font-weight: 500;
+}
+
+.events__item-desc {
+	width: 326px;
+	height: 44px;
+	font-size: 16px;
+	color: #2E373B;
+}
+
+/* ************ */
+
+.news {
+	background-color: #FAF3E3;
+	padding: 75px 0 80px 0;
+}
+
+.news__container {
+	max-width: 1100px;
+}
+
+.news__items {
+	display: flex;
+	justify-content: space-around;
+}
+
+.first-col-item {
+	display: flex;
+	flex-direction: column;
+	margin-right: 125px;
+}
+
+.first-col-item-img-1 {
+	margin-bottom: 59px;
+}
+
+.first-col-item img {
+	max-width: 445px;
+
+}
+
+.second-col-items__header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.second-col-items__header-title {
+	font-size: 30px;
+	color: #2E373B;
+}
+
+.second-col-items__header-more-link {
+	font-size: 21px;
+	color: #2E373B;
+	font-weight: 500;
+	transition: 0.3s;
+}
+
+.second-col-items__header-more-link:hover {
+	text-decoration: underline;
+}
+
+.items__main-item {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+.items__main-item:not(:first-child) {
+	margin-top: 30px;
+}
+
+.items__main-item-img img {
+	max-width: 160px;
+
+}
+
+.item-description {
+	padding: 15px 0;
+}
+
+.item-description-date {
+	color: #F6404F;
+}
+
+.item-description-desc {
+	font-size: 21px;
+	color: #2E373B;
+	margin-top: 14px;
+}
+
+
+/* !!! main */
+
+
+/* todo footer */
+
+.footer {
+	background-color: #30BCC9;
+	padding: 60px 0 70px 0;
+}
+
+.footer__container {
+	max-width: 1110px;
+}
+
+.links-items-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.wrap-1 {
+	margin-bottom: 40px;
+}
+
+.links-item {
+	display: flex;
+	flex-direction: column;
+}
+
+.links-item-2 {
+	margin-left: 166px;
+}
+
+.links-item-3 {
+	margin-left: 122px;
+}
+
+.links-item-4 {
+	margin-left: 141px;
+}
+
+.links-item-5 {
+	margin-left: 124px;
+}
+
+.links-item-title {
+	margin-bottom: 20px;
+	font-size: 21px;
+	font-weight: 500;
+	color: #FFFFFF;
+}
+
+.links-item-desc {
+	font-size: 14px;
+	color: #E0E0E0;
+}
+
+.social-links:not(:first-child) {
+	margin-left: 30px;
+}
+
+.links-item-desc:not(:first-child) {
+	margin-top: 10px;
+}
+
+.links-item-desc:hover {
+	color: #FFC41E;
+	text-decoration: underline;
+}
+
+.footer__links-item-title {
+	font-size: 21px;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+
+.footer__links-item-desc {
+	font-size: 14px;
+	color: #E0E0E0;
+	margin-bottom: 25px;
+}
+
+.form-input__email {
+	display: flex;
+	flex-direction: row;
+}
+
+.input__email {
+	width: 215px;
+	height: 40px;
+	padding: 13px 0 11px 20px;
+	font-size: 12px;
+	color: #9C9C9C;
+}
+
+.input__btn {
+	width: 40px;
+	height: 40px;
+
+	background-color: #F6404F;
+	position: relative;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.input__btn:hover {
+	scale: 1.02;
+}
+
+.input__btn:active {
+	scale: 0.9;
+}
+
+.input__btn-img {
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 30%;
+	left: 25%;
+}
+
+/* todo footer */
